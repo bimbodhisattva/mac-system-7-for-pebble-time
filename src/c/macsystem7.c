@@ -43,7 +43,7 @@ static void main_window_load(Window *window) {
 
   // Create the TextLayer with specific bounds
   s_time_layer = text_layer_create(
-      GRect(0, PBL_IF_ROUND_ELSE(58, 57), bounds.size.w, 50));
+      GRect(-7, PBL_IF_ROUND_ELSE(58, 60), bounds.size.w, 50));
 
   // Improve the layout to be more like a watchface
   text_layer_set_background_color(s_time_layer, GColorClear);
@@ -52,7 +52,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text_alignment(s_time_layer, GTextAlignmentCenter);
 
   // Create GFont
-  s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_CHICAGO_37));
+  s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_CHICAGO_33));
 
   // Apply to TextLayer
   text_layer_set_font(s_time_layer, s_time_font);

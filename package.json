@@ -1,7 +1,7 @@
 {
   "name": "Mac System 7",
   "author": "bimbodhisattva",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "keywords": ["pebble-app"],
   "private": true,
   "dependencies": {},
@@ -11,10 +11,7 @@
     "sdkVersion": "3",
     "enableMultiJS": true,
     "targetPlatforms": [
-      "aplite",
-      "basalt",
-      "chalk",
-      "diorite"
+      "basalt"
     ],
     "watchapp": {
       "watchface": true
@@ -26,7 +23,7 @@
     "media": [
       {
         "type":"font",
-        "name":"FONT_CHICAGO_37",
+        "name":"FONT_CHICAGO_33",
         "file":"Chicago.ttf",
         "compatibility": "2.7"
       },
